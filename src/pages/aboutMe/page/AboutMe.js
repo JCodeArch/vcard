@@ -19,12 +19,15 @@ export default function AboutMe({classSectionIsActive}) {
         <div className="row">
           <div className="col-xs-12 col-sm-7">
             <p>
-              Proin volutpat mauris ac pellentesque pharetra. Suspendisse congue
-              elit vel odio suscipit, sit amet tempor nisl imperdiet. Quisque ex
-              justo, faucibus ut mi in, condimentum finibus dolor. Aliquam vitae
-              hendrerit dolor, eget impyarnrdiet mauris. Maecenas et ante id ipsum
-              condimentum dictum et vel massa. Ut in imperdiet dolor, vel
-              consectetur dui.
+              Sou formado em Ciências da Computação e tenho ampla experiência em diversas áreas do
+              desenvolvimento de software, desde a concepção de funcionalidades simples até a
+              implementação de soluções complexas. Tenho facilidade em trabalhar de forma autônoma
+              no desenvolvimento técnico, gerenciando tempo e esforço para cumprir prazos. Quando
+              o trabalho exige colaboração — especialmente em integrações complexas — adapto-me bem
+              ao trabalho em equipe. Valorizo documentação e testes como pilares fundamentais para
+              garantir a manutenibilidade e a qualidade do software. Tenho experiência em orientar
+              e desenvolver profissionais menos experientes, refletindo meu compromisso com o
+              crescimento da equipe.
             </p>
           </div>
 
@@ -32,36 +35,30 @@ export default function AboutMe({classSectionIsActive}) {
             <div className="info-list">
               <ul>
                 <li>
-                  <span className="title">Age</span>
-                  <span className="value">32</span>
+                  <span className="title">Experiência</span>
+                  <span className="value">10+ anos</span>
                 </li>
 
                 <li>
-                  <span className="title">Residence</span>
-                  <span className="value">USA</span>
+                  <span className="title">Localização</span>
+                  <span className="value">São Paulo, Brasil</span>
                 </li>
 
                 <li>
-                  <span className="title">Address</span>
-                  <span className="value">88 Some Street, Some Town</span>
+                  <span className="title">Especialidade</span>
+                  <span className="value">.NET / C# / Back-End</span>
                 </li>
 
                 <li>
                   <span className="title">e-mail</span>
                   <span className="value">
-                    <a
-                      href="https://lmpixels.com/cdn-cgi/l/email-protection"
-                      className="__cf_email__"
-                      data-cfemail="0a6f676b63664a6f726b677a666f24696567"
-                    >
-                      [email&#160;protected]
-                    </a>
+                    <a href="mailto:jonathas.js@gmail.com">jonathas.js@gmail.com</a>
                   </span>
                 </li>
 
                 <li>
-                  <span className="title">Phone</span>
-                  <span className="value">+0123 123 456 789</span>
+                  <span className="title">Disponível</span>
+                  <span className="value">Para oportunidades</span>
                 </li>
               </ul>
             </div>
@@ -78,10 +75,6 @@ export default function AboutMe({classSectionIsActive}) {
         <Line length={50} />
 
         <Clients />
-
-        <Line length={50} />
-
-        <Pricing />
 
         <Line length={50} />
 

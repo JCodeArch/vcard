@@ -3,12 +3,10 @@ import OwlCarousel from 'react-owl-carousel';
 
 export default function Home({ classSectionIsActive }) {
   const subtitles = [
-    {
-      description: "Web Designer",
-    },
-    {
-      description: "Frontend-developer",
-    },
+    { description: ".NET / C# Specialist" },
+    { description: "Software Architect" },
+    { description: "Back-End Engineer" },
+    { description: "DDD & Clean Architecture" },
   ];
   const options = {
     loop: true,
@@ -31,7 +29,7 @@ export default function Home({ classSectionIsActive }) {
         <div className="row">
           <div className="col-sm-12 col-md-12 col-lg-12">
             <div className="title-block">
-              <h2>Alex Smith</h2>
+              <h2>Jonathas Souza</h2>
               <OwlCarousel
                 className="owl-theme" {...options}
               >

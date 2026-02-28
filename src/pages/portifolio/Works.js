@@ -5,44 +5,44 @@ export default function Works() {
     {
       id: 1,
       imgSrc: "img/portfolio/1.jpg",
-      title: "SoundCloud Audio",
-      categories: ["category_all", "category_soundcloud"],
-      iconClass: "fa fa-volume-up"
+      title: "Caixa Vida e Previdência",
+      categories: ["category_all", "category_architecture", "category_financial"],
+      iconClass: "fas fa-project-diagram"
     },
     {
       id: 2,
       imgSrc: "img/portfolio/2.jpg",
-      title: "Detailed Project 2",
-      categories: ["category_all", "category_detailed"],
-      iconClass: "far fa-file-alt"
+      title: "Carteira Global — XP Inc.",
+      categories: ["category_all", "category_architecture", "category_financial"],
+      iconClass: "fas fa-layer-group"
     },
     {
       id: 3,
       imgSrc: "img/portfolio/3.jpg",
-      title: "Vimeo Video 1",
-      categories: ["category_all", "category_vimeo-videos"],
-      iconClass: "fas fa-video"
+      title: "MVP Câmbio — XP Inc.",
+      categories: ["category_all", "category_backend", "category_integration"],
+      iconClass: "fas fa-exchange-alt"
     },
     {
       id: 4,
       imgSrc: "img/portfolio/4.jpg",
-      title: "Detailed Project 1",
-      categories: ["category_all", "category_detailed"],
-      iconClass: "far fa-file-alt"
+      title: "Consolidação de Posição — Previdência XP",
+      categories: ["category_all", "category_backend", "category_financial"],
+      iconClass: "fas fa-chart-line"
     },
     {
       id: 5,
       imgSrc: "img/portfolio/5.jpg",
-      title: "Mockup Design 1",
-      categories: ["category_all", "category_mockups"],
-      iconClass: "far fa-image"
+      title: "CADOP — Zurich Seguros",
+      categories: ["category_all", "category_backend"],
+      iconClass: "fas fa-shield-alt"
     },
     {
       id: 6,
       imgSrc: "img/portfolio/6.jpg",
-      title: "YouTube Video 1",
-      categories: ["category_all", "category_youtube-videos"],
-      iconClass: "fas fa-video"
+      title: "Simulador de Previdência — Ebix",
+      categories: ["category_all", "category_backend", "category_financial"],
+      iconClass: "fas fa-calculator"
     }
   ];
 
@@ -52,7 +52,7 @@ export default function Works() {
         <figure key={work.id} className="item">
           <div className="portfolio-item-img">
             <img src={work.imgSrc} alt={work.title} title="" />
-            <a href={`../../../../../w.soundcloud.com/player/index79d2.html?url=https%3A//api.soundcloud.com/tracks/221650664&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true`} className="lightbox mfp-iframe" title="SoundCloud Audio"></a>
+            <a href={work.imgSrc} className="lightbox" title={work.title}></a>
           </div>
           <i className={work.iconClass}></i>
           <h4 className="name">{work.title}</h4>

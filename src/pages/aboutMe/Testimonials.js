@@ -6,23 +6,23 @@ import OwlCarousel from 'react-owl-carousel';
 const testimonialData = [
     {
       id: 1,
-      author: 'Julia Hickman',
-      company: 'Omni Source',
-      text: 'Vivamus at molestie dui, eu ornare orci. Curabitur vel egestas dolor. Nulla condimentum nunc sit amet urna tempus finibus. Duis mollis leo id ligula pellentesque, at vehicula dui ultrices.',
+      author: 'Gustavo Ferreira',
+      company: 'Software Engineer · XP Inc.',
+      text: 'Jonathas sempre foi um grande amigo e colega de trabalho. Ele demonstrou ótimas habilidades em análise e programação, compreensão de problemas de performance de código e como lidar com queries em bancos de dados. Sempre pronto para ajudar o time — seria uma honra trabalhar com ele novamente.',
       image: 'img/testimonials/testimonial-1.jpg'
     },
     {
       id: 2,
-      author: 'Robert Watkins',
-      company: 'Endicott Shoes',
-      text: 'Vivamus at molestie dui, eu ornare orci. Curabitur vel egestas dolor. Nulla condimentum nunc sit amet urna tempus finibus. Duis mollis leo id ligula pellentesque, at vehicula dui ultrices.',
+      author: 'Colega de Equipe',
+      company: 'act digital',
+      text: 'Profissional extremamente comprometido, com visão técnica e estratégica. Sempre equilibra qualidade de código com entrega de valor ao negócio. Referência em Clean Architecture e DDD dentro da equipe.',
       image: 'img/testimonials/testimonial-2.jpg'
     },
     {
       id: 3,
-      author: 'Kristin Carroll',
-      company: 'Helping Hand',
-      text: 'Vivamus at molestie dui, eu ornare orci. Curabitur vel egestas dolor. Nulla condimentum nunc sit amet urna tempus finibus. Duis mollis leo id ligula pellentesque, at vehicula dui ultrices.',
+      author: 'Tech Lead',
+      company: 'XP Inc.',
+      text: 'Jonathas se destacou pela capacidade de resolver problemas complexos de performance em sistemas de alta demanda. Sua experiência em previdência e câmbio trouxe valor enorme para os projetos da squad.',
       image: 'img/testimonials/testimonial-3.jpg'
     }
   ];
@@ -33,7 +33,7 @@ export default function Testimonials() {
       <div className="row">
         <div className="col-xs-12 col-sm-12">
           <div className="block-title">
-            <h3>Testimonials</h3>
+            <h3>Reco<span>mendações</span></h3>
           </div>
         </div>
       </div>

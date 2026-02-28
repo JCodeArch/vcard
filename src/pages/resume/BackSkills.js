@@ -2,18 +2,17 @@ import React from "react";
 
 export default function BackSkills() {
   const skills = [
-    { name: "JavaScript", percentage: 95 },
-    { name: "PHP", percentage: 85 },
-    { name: "HTML/CSS", percentage: 100 },
-    { name: "Smarty/Twig", percentage: 75 },
-    { name: "Perl", percentage: 90 }
+    { name: "Azure DevOps / CI-CD", percentage: 80 },
+    { name: "Kafka / RabbitMQ", percentage: 78 },
+    { name: "Entity Framework / Dapper", percentage: 92 },
+    { name: "xUnit / Testes Automatizados", percentage: 85 }
   ];
 
   return (
     <>
       <div className="block-title">
         <h3>
-          Back <span>Skills</span>
+          Cloud <span>&amp; DevOps</span>
         </h3>
       </div>
 

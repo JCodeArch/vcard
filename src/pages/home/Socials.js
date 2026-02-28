@@ -1,9 +1,8 @@
 import React from "react";
 
 const socialLinks = [
-  { name: "LinkedIn", icon: "fab fa-linkedin-in", url: "#" },
-  { name: "Facebook", icon: "fab fa-facebook-f", url: "#" },
-  { name: "Twitter", icon: "fab fa-twitter", url: "#" }
+  { name: "LinkedIn", icon: "fab fa-linkedin-in", url: "https://www.linkedin.com/in/jonathas-silva-de-souza-73674931" },
+  { name: "GitHub", icon: "fab fa-github", url: "#" },
 ];
 
 const Social = () => {

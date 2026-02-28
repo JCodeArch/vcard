@@ -40,11 +40,6 @@ export default function Resume({classSectionIsActive}) {
           </div>
         </div>
 
-        <Line length={50} />
-
-        <Certificates />
-
-         
       </div>
     </section>
   );

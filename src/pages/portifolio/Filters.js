@@ -2,12 +2,11 @@ import React from "react";
 
 export default function Filters() {
   const filters = [
-    { id: 1, group: "category_all", label: "All" },
-    { id: 2, group: "category_detailed", label: "Detailed" },
-    { id: 3, group: "category_mockups", label: "Mockups" },
-    { id: 4, group: "category_soundcloud", label: "SoundCloud" },
-    { id: 5, group: "category_vimeo-videos", label: "Vimeo Videos" },
-    { id: 6, group: "category_youtube-videos", label: "YouTube Videos" }
+    { id: 1, group: "category_all", label: "Todos" },
+    { id: 2, group: "category_backend", label: "Backend" },
+    { id: 3, group: "category_architecture", label: "Arquitetura" },
+    { id: 4, group: "category_financial", label: "Financeiro" },
+    { id: 5, group: "category_integration", label: "Integração" }
   ];
 
   return (

@@ -2,17 +2,17 @@ import React from "react";
 
 export default function FrontSkills() {
   const frontEndSkills = [
-    { name: "Web Design", percentage: 95 },
-    { name: "Print Design", percentage: 65 },
-    { name: "Logo Design", percentage: 80 },
-    { name: "Graphic Design", percentage: 90 }
+    { name: "C# / .NET Core", percentage: 95 },
+    { name: "SQL Server / MongoDB", percentage: 88 },
+    { name: "DDD / Clean Architecture", percentage: 92 },
+    { name: "Microservices / APIs REST", percentage: 90 }
   ];
 
   return (
     <>
       <div className="block-title">
         <h3>
-          Front <span>Skills</span>
+          Core <span>Skills</span>
         </h3>
       </div>
 

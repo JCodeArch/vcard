@@ -1,9 +1,9 @@
 import React from 'react';
 
 const facts = [
-  { id: 1, icon: 'lnr lnr-heart', title: 'Happy Clients', value: '578' },
-  { id: 2, icon: 'lnr lnr-clock', title: 'Working Hours', value: '4,780' },
-  { id: 3, icon: 'lnr lnr-star', title: 'Awards Won', value: '15' }
+  { id: 1, icon: 'lnr lnr-briefcase', title: 'Anos de Experiência', value: '13+' },
+  { id: 2, icon: 'lnr lnr-apartment', title: 'Empresas', value: '8+' },
+  { id: 3, icon: 'lnr lnr-rocket', title: 'Projetos Entregues', value: '20+' }
 ];
 
 const FunFacts = () => {
@@ -13,7 +13,7 @@ const FunFacts = () => {
         <div className="col-xs-12 col-sm-12">
           <div className="block-title">
             <h3>
-              Fun <span>Facts</span>
+              Carreira em <span>Números</span>
             </h3>
           </div>
         </div>

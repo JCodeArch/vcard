@@ -15,7 +15,7 @@ export default function Header({ currentPage, handleNavigation }) {
       <Menu currentPage={currentPage} handleNavigation={handleNavigation} />
       <Social />
       <DownloadFile />
-      <div className="copyrights">© 2024 All rights reserved.</div>
+      <div className="copyrights">© 2026 Jonathas Souza. All rights reserved.</div>
     </header>
   );
 }

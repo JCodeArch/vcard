@@ -4,34 +4,50 @@ export default function Experience() {
   const experiences = [
     {
       id: 1,
-      period: "2016 - Current",
-      company: "Google",
-      title: "Lead Ui/Ux Designer",
+      period: "ago/2023 – presente",
+      company: "act digital",
+      title: "Engenheiro de Software Sênior .NET",
       description:
-        "Praesent dignissim sollicitudin justo, sed elementum quam lacinia quis. Phasellus eleifend tristique posuere. Sed vitae dui nec magna."
+        "Atuando como Desenvolvedor Sênior .NET junto ao cliente Caixa Vida e Previdência. Responsável por design de soluções, desenvolvimento de APIs e microsserviços, e mentoria técnica da equipe. Foco em Clean Architecture, DDD e alta disponibilidade."
     },
     {
       id: 2,
-      period: "2013 - 2016",
-      company: "Adobe",
-      title: "Senior Ui/Ux Designer",
+      period: "jul/2019 – jan/2023",
+      company: "XP Inc.",
+      title: "Engenheiro de Software Sênior",
       description:
-        "Maecenas tempus faucibus rutrum. Duis eu aliquam urna. Proin vitae nulla tristique, ornare felis id, congue libero. Nam volutpat euismod quam."
+        "Integrei squads de Previdência, Carteira Global e Câmbio. Desenvolvi o software de consolidação de posição, projeto Carteira Global e lancei o MVP de Câmbio. Stack: C#, SQL Server, MongoDB, Kafka, RabbitMQ, Clean Architecture, DDD, CQRS, xUnit."
     },
     {
       id: 3,
-      period: "2011 - 2013",
-      company: "Google",
-      title: "Junior Ui/Ux Designer",
+      period: "nov/2015 – mar/2019",
+      company: "Ebix Latin America",
+      title: "Analista Desenvolvedor .NET",
       description:
-        "Duis mollis nunc quis quam viverra venenatis. Nulla nulla arcu, congue vitae nunc ac, sodales ultricies diam. Nullam justo leo, tincidunt sit amet."
+        "Desenvolvimento do sistema CADOP para Zurich Seguros, Simulador de Previdência e atuação na squad de Previdência da XP Investimentos. Stack: .NET Framework, C#, SQL Server, Entity Framework, ASP.NET, Web Services."
+    },
+    {
+      id: 4,
+      period: "mai/2014 – out/2015",
+      company: "Anixter do Brasil",
+      title: "Analista de TI",
+      description:
+        "Equipe global (Brasil, UK, EUA, México) para sistema de cotações com cálculo cambial. Integração .NET com Mainframe, otimização de banco de dados com Procedures, Triggers e Views. Stack: .NET, C#, ASP.NET, SQL Server, Entity Framework."
+    },
+    {
+      id: 5,
+      period: "jun/2012 – mai/2014",
+      company: "Secom",
+      title: "Analista Programador Pleno",
+      description:
+        "Projeto Phoenix para Depto. de Inteligência da Polícia Civil (coleta biométrica e análise de suspeitos) e sistema de emissão de RGs para a Polícia do Ceará. Stack: .NET, C#, ASP.NET, SQL Server, PostgreSQL, Web Services."
     }
   ];
 
   return (
     <>
       <div className="block-title">
-        <h3>Experience</h3>
+        <h3>Experi<span>ência</span></h3>
       </div>
 
       <div className="timeline timeline-second-style clearfix">

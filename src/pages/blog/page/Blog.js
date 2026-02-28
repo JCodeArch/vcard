@@ -5,7 +5,7 @@ export default function Blog({classSectionIsActive}) {
   return (
     <section data-id="blog" className={`animated-section ${classSectionIsActive}`}>
       <div className="page-title">
-        <h2>Blog</h2>
+        <h2>Artigos <span>Técnicos</span></h2>
       </div>
       <div className="section-content">
         <div className="row">

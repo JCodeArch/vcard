@@ -4,35 +4,35 @@ export default function PostCard() {
   const posts = [
     {
       id: 1,
-      category: "Design",
-      date: "05 Mar 2020",
-      title: "Why I Switched to Sketch For UI Design",
+      category: "Arquitetura",
+      date: "15 Jan 2025",
+      title: "Clean Architecture no .NET: do conceito à prática com exemplos reais",
       imgSrc: "img/blog/blog_post_1.jpg",
-      link: "blog-post-1.html"
+      link: "#blog/clean-architecture-dotnet"
     },
     {
       id: 2,
-      category: "UI",
-      date: "23 Feb 2020",
-      title: "Best Practices for Animated Progress Indicators",
+      category: "Backend",
+      date: "20 Mar 2025",
+      title: "CQRS com MediatR em .NET: separando comandos de consultas na prática",
       imgSrc: "img/blog/blog_post_2.jpg",
-      link: "blog-post-2.html"
+      link: "#blog/cqrs-mediatr-dotnet"
     },
     {
       id: 3,
-      category: "Design",
-      date: "06 Feb 2020",
-      title: "Designing the Perfect Feature Comparison Table",
+      category: "Arquitetura",
+      date: "10 Jun 2025",
+      title: "DDD aplicado em sistemas financeiros: Aggregates, Value Objects e Domain Events",
       imgSrc: "img/blog/blog_post_3.jpg",
-      link: "blog-post-3.html"
+      link: "#blog/ddd-sistemas-financeiros"
     },
     {
       id: 4,
-      category: "E-Commerce",
-      date: "07 Jan 2020",
-      title: "An Overview of E-Commerce Platforms",
+      category: "Integração",
+      date: "05 Sep 2025",
+      title: "Kafka vs RabbitMQ: quando usar cada um em arquiteturas distribuídas",
       imgSrc: "img/blog/blog_post_4.jpg",
-      link: "blog-post-4.html"
+      link: "#blog/kafka-vs-rabbitmq"
     }
   ];
 

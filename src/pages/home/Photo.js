@@ -5,7 +5,7 @@ import Picture from './img/main_photo.jpg'
 export default function Photo() {
     return (
         <div className="header-photo">
-         <img  src={Picture}  alt='Jhon Smith' />
+         <img  src={Picture}  alt='Jonathas Souza' />
       </div>
     )
 }

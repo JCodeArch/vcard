@@ -3,27 +3,27 @@
 const services = [
   {
     id: 1,
-    icon: 'lnr lnr-store',
-    title: 'Ecommerce',
-    description: 'Pellentesque pellentesque, ipsum sit amet auctor accumsan, odio tortor bibendum massa, sit amet ultricies ex lectus scelerisque nibh. Ut non sodales.'
+    icon: 'lnr lnr-laptop-phone',
+    title: 'Backend .NET / C#',
+    description: 'Desenvolvimento de APIs RESTful, microsserviços e sistemas de alta performance com .NET Core, C#, Entity Framework e Dapper.'
   },
   {
     id: 2,
-    icon: 'lnr lnr-laptop-phone',
-    title: 'Web Design',
-    description: 'Pellentesque pellentesque, ipsum sit amet auctor accumsan, odio tortor bibendum massa, sit amet ultricies ex lectus scelerisque nibh. Ut non sodales.'
+    icon: 'lnr lnr-layers',
+    title: 'Software Architecture',
+    description: 'Desenho e implementação de arquiteturas robustas com DDD, Clean Architecture, CQRS e sistemas distribuídos escaláveis.'
   },
   {
     id: 3,
-    icon: 'lnr lnr-pencil',
-    title: 'Copywriting',
-    description: 'Pellentesque pellentesque, ipsum sit amet auctor accumsan, odio tortor bibendum massa, sit amet ultricies ex lectus scelerisque nibh. Ut non sodales.'
+    icon: 'lnr lnr-chart-bars',
+    title: 'Sistemas Financeiros',
+    description: 'Experiência sólida em previdência, câmbio e produtos financeiros complexos — XP Inc., Caixa Vida e Previdência, Zurich Seguros.'
   },
   {
     id: 4,
-    icon: 'lnr lnr-flag',
-    title: 'Management',
-    description: 'Pellentesque pellentesque, ipsum sit amet auctor accumsan, odio tortor bibendum massa, sit amet ultricies ex lectus scelerisque nibh. Ut non sodales.'
+    icon: 'lnr lnr-sync',
+    title: 'Messaging & Integração',
+    description: 'Integração de sistemas com Kafka, RabbitMQ, APIs REST e padrões de mensageria para arquiteturas event-driven de alta disponibilidade.'
   }
 ];
 

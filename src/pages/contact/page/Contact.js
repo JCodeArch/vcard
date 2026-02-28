@@ -145,16 +145,16 @@ export default function Contact({classSectionIsActive}) {
   };
 
   const contactInfo = {
-    city: "San Francisco",
-    zipCode: "415-832-2000",
-    email: "exemplo@dominio.com",
-    isAvailable: "Freelance Available",
+    city: "São Paulo, SP — Brasil",
+    zipCode: "+55 (11) 99190-4628",
+    email: "jonathas.js@gmail.com",
+    isAvailable: "Disponível para Oportunidades",
   };
 
   return (
     <section data-id="contact" className={`animated-section ${classSectionIsActive}`}>
       <div className="page-title">
-        <h2>Contact</h2>
+        <h2>Contato</h2>
       </div>
 
       <div className="section-content">
@@ -169,7 +169,7 @@ export default function Contact({classSectionIsActive}) {
           <div className="col-xs-12 col-sm-8">
             <Map />
             <div className="block-title">
-              <h3>How Can I <span>Help You?</span></h3>
+              <h3>Como posso <span>ajudar?</span></h3>
             </div>
 
             <form onSubmit={handleSubmit} className="contact-form" noValidate>
@@ -180,7 +180,7 @@ export default function Contact({classSectionIsActive}) {
                   <div className="left-column">
                     <TextInputField
                       name="name"
-                      label="Full Name"
+                      label="Nome Completo"
                       value={formData.name}
                       onChange={handleInputChange}
                       error={formErrors.name}
@@ -190,7 +190,7 @@ export default function Contact({classSectionIsActive}) {
 
                     <TextInputField
                       name="email"
-                      label="Email Address"
+                      label="E-mail"
                       value={formData.email}
                       onChange={handleInputChange}
                       error={formErrors.email}
@@ -200,7 +200,7 @@ export default function Contact({classSectionIsActive}) {
 
                     <TextInputField
                       name="subject"
-                      label="Subject"
+                      label="Assunto"
                       value={formData.subject}
                       onChange={handleInputChange}
                       error={formErrors.subject}
@@ -212,7 +212,7 @@ export default function Contact({classSectionIsActive}) {
                   <div className="right-column">
                     <TextAreaField
                       name="message"
-                      label="Message"
+                      label="Mensagem"
                       value={formData.message}
                       onChange={handleInputChange}
                       error={formErrors.message}
@@ -236,7 +236,7 @@ export default function Contact({classSectionIsActive}) {
                 <input
                   type="submit"
                   className="button btn-send"
-                  value="Send message"
+                  value="Enviar mensagem"
                 />
               </div>
             </form>
