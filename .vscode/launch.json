@@ -1,0 +1,42 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "▶ React Dev Server",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "C:\\nvm\\v24.14.0\\node.exe",
+      "runtimeArgs": [
+        "node_modules/react-scripts/bin/react-scripts.js",
+        "start"
+      ],
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "BROWSER": "none",
+        "HOST": "127.0.0.1",
+        "PORT": "3000",
+        "GENERATE_SOURCEMAP": "false",
+        "SKIP_PREFLIGHT_CHECK": "true"
+      },
+      "console": "integratedTerminal",
+      "skipFiles": ["<node_internals>/**"]
+    },
+    {
+      "name": "🌐 Chrome (localhost:3000)",
+      "type": "chrome",
+      "request": "launch",
+      "url": "http://localhost:3000",
+      "webRoot": "${workspaceFolder}/src",
+      "sourceMapPathOverrides": {
+        "webpack:///src/*": "${webRoot}/*"
+      }
+    }
+  ],
+  "compounds": [
+    {
+      "name": "🚀 Full Stack (Server + Chrome)",
+      "configurations": ["▶ React Dev Server", "🌐 Chrome (localhost:3000)"],
+      "stopAll": true
+    }
+  ]
+}

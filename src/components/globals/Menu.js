@@ -2,11 +2,11 @@ import React from "react";
 
 const menuItems = [
   { id: 'home', text: 'Home', icon: 'lnr lnr-home' },
-  { id: 'about-me', text: 'About Me', icon: 'lnr lnr-user' },
-  { id: 'resume', text: 'Resume', icon: 'lnr lnr-graduation-hat' },
-  { id: 'portfolio', text: 'Portfolio', icon: 'lnr lnr-briefcase' },
+  { id: 'about-me', text: 'Sobre Mim', icon: 'lnr lnr-user' },
+  { id: 'resume', text: 'Resumo', icon: 'lnr lnr-graduation-hat' },
+  { id: 'portfolio', text: 'Portfólio', icon: 'lnr lnr-briefcase' },
   { id: 'blog', text: 'Blog', icon: 'lnr lnr-book' },
-  { id: 'contact', text: 'Contact', icon: 'lnr lnr-envelope' }
+  { id: 'contact', text: 'Contato', icon: 'lnr lnr-envelope' }
 ];
 
 export default function Menu({ currentPage, handleNavigation }) {

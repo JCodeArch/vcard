@@ -2,16 +2,15 @@ import React from "react";
 import Testimonials from "../Testimonials";
 import Clients from "../Clients";
 import WhatIDo from "../WhatIDo";
-import Pricing from "../Pricing";
 import FunFacts from "../FunFacts";
 import Line from "../../../components/globals/Line";
 
-export default function AboutMe({classSectionIsActive}) {
+export default function AboutMe({ classSectionIsActive }) {
   return (
     <section data-id="about-me" className={`animated-section ${classSectionIsActive}`}>
       <div className="page-title">
         <h2>
-          About <span>Me</span>
+          Sobre <span>Mim</span>
         </h2>
       </div>
 

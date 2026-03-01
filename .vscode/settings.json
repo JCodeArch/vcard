@@ -1,0 +1,15 @@
+{
+  "terminal.integrated.env.windows": {
+    "PATH": "C:\\nvm\\v24.14.0;${env:PATH}"
+  },
+  "npm.packageManager": "npm",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "eslint.validate": ["javascript", "javascriptreact"],
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  }
+}

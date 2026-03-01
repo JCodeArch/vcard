@@ -4,16 +4,16 @@ import 'owl.carousel/dist/assets/owl.carousel.css';
 
 
 const clientData = [
-  { id: 1, imageUrl: '../../img/clients/client-1.png', name: 'act digital' },
-  { id: 2, imageUrl: '../../img/clients/client-2.png', name: 'XP Inc.' },
-  { id: 3, imageUrl: '../../img/clients/client-3.png', name: 'Ebix' },
-  { id: 4, imageUrl: '../../img/clients/client-4.png', name: 'Anixter' },
-  { id: 5, imageUrl: '../../img/clients/client-5.png', name: 'Secom' },
-  { id: 6, imageUrl: '../../img/clients/client-6.png', name: 'Itaú BBA' },
-  { id: 7, imageUrl: '../../img/clients/client-7.png', name: 'Caixa Vida e Previdência' },
+  { id: 1, imageUrl: 'img/clients/client-1.png', name: 'act digital' },
+  { id: 2, imageUrl: 'img/clients/client-2.png', name: 'XP Inc.' },
+  { id: 3, imageUrl: 'img/clients/client-3.png', name: 'Ebix' },
+  { id: 4, imageUrl: 'img/clients/client-4.png', name: 'Anixter' },
+  { id: 5, imageUrl: 'img/clients/client-5.png', name: 'Secom' },
+  { id: 6, imageUrl: 'img/clients/client-6.png', name: 'Itaú BBA' },
+  { id: 7, imageUrl: 'img/clients/client-7.png', name: 'Caixa Vida e Previdência' },
 ];
 
-export default function Clients(){
+export default function Clients() {
   const owlOptions = {
     nav: true,
     items: 2,

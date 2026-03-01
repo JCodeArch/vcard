@@ -1,0 +1,87 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "npm: start:react",
+      "type": "shell",
+      "command": "node node_modules/react-scripts/bin/react-scripts.js start",
+      "options": {
+        "cwd": "${workspaceFolder}",
+        "env": {
+          "BROWSER": "none",
+          "HOST": "127.0.0.1",
+          "PORT": "3000",
+          "GENERATE_SOURCEMAP": "false",
+          "SKIP_PREFLIGHT_CHECK": "true"
+        }
+      },
+      "isBackground": true,
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": {
+        "owner": "react",
+        "pattern": {
+          "regexp": "."
+        },
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": "Starting the development server",
+          "endsPattern": "Compiled"
+        }
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "group": "dev"
+      }
+    },
+    {
+      "label": "npm: start:webpack",
+      "type": "shell",
+      "command": "node node_modules/webpack-cli/bin/cli.js --watch --mode development",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "isBackground": true,
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "group": "dev"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "npm: build",
+      "type": "shell",
+      "command": "node node_modules/react-scripts/bin/react-scripts.js build",
+      "options": {
+        "cwd": "${workspaceFolder}",
+        "env": {
+          "GENERATE_SOURCEMAP": "false"
+        }
+      },
+      "group": "build",
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "npm: test",
+      "type": "shell",
+      "command": "node node_modules/react-scripts/bin/react-scripts.js test --watchAll=false",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "group": "test",
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      },
+      "problemMatcher": []
+    }
+  ]
+}
